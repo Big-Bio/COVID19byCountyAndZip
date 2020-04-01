@@ -1,6 +1,6 @@
 # Description of data files
 
-* [Country_CDC_County_Health_Rankings_2020.csv] (https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/Country_CDC_County_Health_Rankings_2020.csv)
+* [Country_CDC_County_Health_Rankings_2020.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/Country_CDC_County_Health_Rankings_2020.csv)
   *  Description: CDC Health Rankings 2020 by Country
   * Source:
   * Accession date:
