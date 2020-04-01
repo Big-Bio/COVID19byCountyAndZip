@@ -1,21 +1,21 @@
 # Description of data files
 
-* [Country_CDC_County_Health_Rankings_2020.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/Country_CDC_County_Health_Rankings_2020.csv)
-  *  Description: CDC Health Rankings 2020 by Country
+* [CDC_County_Health_Rankings_2020_byCountry.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/CDC_County_Health_Rankings_2020_byCountry.csv)
+  *  Description:
   * Source:
   * Accession date:
 
-* [State_CDC_County_Health_Rankings_2020.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/State_CDC_County_Health_Rankings_2020.csv)
+* [CDC_County_Health_Rankings_2020_byState.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/CDC_County_Health_Rankings_2020_byState.csv)
   * Description:
   * Source:
   * Accession date:
 
-* [County_CDC_County_Health_Rankings_2020.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/County_CDC_County_Health_Rankings_2020.csv)
+* [CDC_County_Health_Rankings_2020_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/CDC_County_Health_Rankings_2020_byCounty.csv)
   * Description:
   * Source:
   * Accession date:
 
-* [County_Unacast_Social_Distancing.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/County_Unacast_Social_Distancing.csv)
+* [Unacast_Social_Distancing_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/Unacast_Social_Distancing_byCounty.csv)
   * Description:
   * Source:
   * Accession date:
