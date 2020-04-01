@@ -110,3 +110,48 @@
   * Source:
   * Accession Date:
 
+* [ACS_Median_Household_Income_Variables_Centroids_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Median_Household_Income_Variables_Centroids_byCounty.csv)
+  * Description:
+  * Source:
+  * Accession Date:
+
+* [ACS_Median_Household_Income_Variables_Centroids_byState.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Median_Household_Income_Variables_Centroids_byState.csv)
+  * Description:
+  * Source:
+  * Accession Date:
+
+* [ACS_Median_Household_Income_Variables_Centroids_byTract.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Median_Household_Income_Variables_Centroids_byTract.csv)
+  * Description:
+  * Source:
+  * Accession Date:
+
+* [ACS_Population_Variables_Centroids_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Population_Variables_Centroids_byCounty.csv)
+  * Description:
+  * Source:
+  * Accession Date:
+
+* [ACS_Population_Variables_Centroids_byState.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Population_Variables_Centroids_byState.csv)
+  * Description:
+  * Source:
+  * Accession Date:
+
+* [ACS_Population_Variables_Centroids_byTract.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Population_Variables_Centroids_byTract.csv)
+  * Description:
+  * Source:
+  * Accession Date:
+
+* [ACS_Poverty_Status_Variables_Centroids_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Poverty_Status_Variables_Centroids_byCounty.csv)
+  * Description:
+  * Source:
+  * Accession Date:
+
+* [ACS_Poverty_Status_Variables_Centroids_byState.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Poverty_Status_Variables_Centroids_byState.csv)
+  * Description:
+  * Source:
+  * Accession Date:
+
+* [ACS_Poverty_Status_Variables_Centroids_byTract.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Poverty_Status_Variables_Centroids_byTract.csv)
+  * Description:
+  * Source:
+  * Accession Date:
+
