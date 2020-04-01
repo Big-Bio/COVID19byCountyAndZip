@@ -15,7 +15,7 @@
   * Source:
   * Accession date:
 
-* [Unacast_Social_Distancing_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/Unacast_Social_Distancing_byCounty.csv)
+* [Unacast Social_Distancing](https://www.unacast.com/)
   * Description:
-  * Source:
+  * Source: https://www.unacast.com/
   * Accession date:
