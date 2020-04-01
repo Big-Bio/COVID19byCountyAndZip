@@ -1,4 +1,4 @@
 # Static Data
 
 
-## Descriptions of Data files in Data Folder 
+## Descriptions of data files
