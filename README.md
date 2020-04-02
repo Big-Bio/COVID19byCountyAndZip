@@ -27,18 +27,16 @@ In this [folder](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData)
 
 # Data Formatting Guidelines
 
-**Data formatting standard following same standard from  ** [**https://github.com/nytimes/covid-19-data**](https://github.com/nytimes/covid-19-data)
 
-**Column header names**
+**Column header**
 
-- For columns present on the NYT data (i.e.,  date, tract, county, state, fips, cases, and deaths), the column names must match identically and use lowercase.
+- For columns present on the [NYT data](https://github.com/nytimes/covid-19-data) (i.e.,  date, tract, county, state, fips, cases, and deaths), the column names must match identically and use lowercase.
 - All column names must not have commas, so you must change these too.
 - For all other column names, keep them exactly the same.
 - Note: For all column names changed, mention in the README (1) the original column name that was changed, and (2) what the new column name is.
 
 
-
-**Data standard format**
+**Data format**
 
 **date:** yyyy-mm-dd
 
