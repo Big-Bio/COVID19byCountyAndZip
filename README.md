@@ -28,33 +28,32 @@ In this [folder](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData)
 # Data Formatting Guidelines
 
 
-**Column header**
+## Column header
 
-- For columns present on the [NYT data](https://github.com/nytimes/covid-19-data) (i.e.,  date, tract, county, state, fips, cases, and deaths), the column names must match identically and use lowercase.
-- All column names must not have commas, so you must change these too.
-- For all other column names, keep them exactly the same.
-- Note: For all column names changed, mention in the README (1) the original column name that was changed, and (2) what the new column name is.
+* For columns present on the [NYT data](https://github.com/nytimes/covid-19-data) (i.e.,  date, tract, county, state, fips, cases, and deaths), the column names must match identically and use lowercase.
+* All column names must not have commas, so you must change these too.
+* For all other column names, keep them exactly the same.
+* Note: For all column names changed, mention in the README (1) the original column name that was changed, and (2) what the new column name is.
 
 
-**Data format**
+## Data format
 
-**date:** yyyy-mm-dd
+* **date:** yyyy-mm-dd
 
-**state and county:** All specific State/County names capitalized (e.g., Santa Clara, Los Angeles, California, Michigan, New York). County names should not have &quot;County&quot; on their names. (e.g., &quot;King County&quot; becomes &quot;King&quot;)
+* **state and county:** All specific State/County names capitalized (e.g., Santa Clara, Los Angeles, California, Michigan, New York). County names should not have &quot;County&quot; on their names. (e.g., &quot;King County&quot; becomes &quot;King&quot;)
 
-**fips:** numbers with leading zeros (0-9)
+* **fips:** Integers
 
-State level: 2 digits (e.g., 01)
+  * State level: 1-2 digits (e.g., 1, 53)
 
-County level: 5 digits (e.g., 01001)
+  * County level: 4-5 digits (e.g., 1001, 53061)
 
-Tract level: 11 digits (e.g., 01001021000)
+  * Tract level: 10-11 digits (e.g., 1001021000, 53061940002)
 
-\*\*\*There are no spaces between the numbers for fips codes, the spaces above are just to represent what the different sets of numbers represent.
 
-**cases:** Integers
+* **cases:** Integers
 
-**deaths:** Integers
+* **deaths:** Integers
 
 # Contact
 
