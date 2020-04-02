@@ -7,6 +7,7 @@ We are examining fine scale resolution of coronavirus growth rates, at the level
 
 * [Relevant Data](#relevant-data)
 * [Static Data](#static-data)
+* [Data Formatting Guidelines](#data-formatting-guidelines)
 * [Contact](#contact)
 
 
@@ -24,6 +25,35 @@ We are examining fine scale resolution of coronavirus growth rates, at the level
 
 In this [folder](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData) we are hoping to make machine readable flat files of static covariates that can be used to understand disease spread and severity rates. We want all covariates to be at the zip and county code level of granularity.  We want any data on covariates that could indicate [risk](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-at-higher-risk.html) and any covariates that we think might be correlated with these or with other measures of social distancing.
 
+# Data Formatting Guidelines
+
+
+## Column header
+
+* For columns present on the [NYT data](https://github.com/nytimes/covid-19-data) (i.e.,  date, tract, county, state, fips, cases, and deaths), the column names must match identically and use lowercase.
+* All column names must not have commas, so you must change these too.
+* For all other column names, keep them exactly the same.
+* Note: For all column names changed, mention in the README (1) the original column name that was changed, and (2) what the new column name is.
+
+
+## Data format
+
+* **date:** yyyy-mm-dd
+
+* **state and county:** All specific State/County names capitalized (e.g., Santa Clara, Los Angeles, California, Michigan, New York). County names should not have &quot;County&quot; on their names. (e.g., &quot;King County&quot; becomes &quot;King&quot;)
+
+* **fips:** Integers
+
+  * State level: 1-2 digits (e.g., 1, 53)
+
+  * County level: 4-5 digits (e.g., 1001, 53061)
+
+  * Tract level: 10-11 digits (e.g., 1001021000, 53061940002)
+
+
+* **cases:** Integers
+
+* **deaths:** Integers
 
 # Contact
 
