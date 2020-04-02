@@ -15,6 +15,8 @@ We are examining fine scale resolution of coronavirus growth rates, at the level
 * [CDC’s Social Vulnerability Index (SVI)](https://nation.maps.arcgis.com/home/item.html?id=425652f366d34c8ca33e6b014a304054): It includes all kinds of columns on the tract/county level including a social vulnerability score (calculated from 15 US Census metrics), data on population, housing stats, unemployment, poverty, per capita income, etc.
 
 
+* [nytimes' case counts data](https://github.com/nytimes/covid-19-data): Here the nytimes is gathering all the state and county case and death counts. Data is kept up to date and each county entry (or state entry) uses the corresponding FIPS code.
+
 # Static Data
 
 * [Static Data](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData)
