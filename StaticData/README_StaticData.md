@@ -12,17 +12,17 @@
 [ACS_Children_by_Parental_Labor_Force_Participation by County](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/ACS_Children_by_Parental_Labor_Force_Participation_Variables_-_Centroids_byCounty.csv)<br />
 [ACS_Children_by_Parental_Labor_Force_Participation by State](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/ACS_Children_by_Parental_Labor_Force_Participation_Variables_-_Centroids_byState.csv)<br />
   * Description: The labor force includes all people in the civilian labor force (employed or unemployed) and U.S. Armed forces. The American Community Survey (ACS) asks questions about family relationships and employment status to gather data about household interactions. These datasets include several columns regarding parental labor status, such as children under age 6 having both parents, no parents, or only mother/only father in the labor force. See the ACS topics or data pages for more details.
-  * Source: https://www.census.gov/acs/www/about/why-we-ask-each-question/index.php, https://www.census.gov/acs/www/data/data-tables-and-tools/ 
-  * Column Changes: STATE -> state, FIPS -> fips
+  * Source: https://www.census.gov/acs/www/data/data-tables-and-tools/
+  * Column Changes: Tract -> tract, STATE -> state, County -> county, FIPS -> fips
   * Accession date: 2020-03-31
 
 [ACS_Children_with_Grandparent_Householder by Tract](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Children_with_Grandparent_Householder_Variables_-_Centroids_byTract.csv)<br />
 [ACS_Children_with_Grandparent_Householder by County](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Children_with_Grandparent_Householder_Variables_-_Centroids_byCounty.csv)<br />
 [ACS_Children_with_Grandparent_Householder by State](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Children_with_Grandparent_Householder_Variables_-_Centroids_byState.csv)<br />
-  * Description:
-  * Source:
-  * Column Changes:
-  * Accession date:
+  * Description: The ACS gathers data about grandparent caregivers. These datasets include information about children under 18 living with Grandparents. Various columns split children into age ranges (e.g. Grandchildren under age 6 living with a Grandparent), or describe if a grandparent is responsible for a child, with or without a parent present. This data is available at the tract, county, and state level. See the [ACS topics](https://www.census.gov/acs/www/about/why-we-ask-each-question/index.php) or [data pages](https://www.census.gov/acs/www/data/data-tables-and-tools/) for more details.
+  * Source: https://www.census.gov/acs/www/data/data-tables-and-tools/
+  * Column Changes: Tract -> tract, State -> state, County -> county, FIPS -> fips
+  * Accession date: 2020-03-31
 
 [ACS_Disability_Status by Tract](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Disability_Status_Variables_Centroids_byTract.csv)<br />
 [ACS_Disability_Status by County](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Disability_Status_Variables_Centroids_byCounty.csv)<br />
