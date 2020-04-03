@@ -35,10 +35,10 @@
 [ACS_Health_Insurance_Coverage_Variables by Tract](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Health_Insurance_Coverage_Variables_Centroids_byTract.csv)<br />
 [ACS_Health_Insurance_Coverage_Variables by County](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Health_Insurance_Coverage_Variables_Centroids_byCounty.csv)<br />
 [ACS_Health_Insurance_Coverage_Variables by State](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Health_Insurance_Coverage_Variables_Centroids_byState.csv)<br />
-  * Description:
-  * Source:
-  * Column Changes:
-  * Accession date:
+  * Description: The ACS gathers data about health insurance coverage and the sources of health insurance in a given geographic area. These datasets include estimates of number of individuals in varying demographic groups with different health care plans, such as those with Medicaid, Medicare, direct-purchase healthcare, military healthcare, etc. Additionally, the datasets have columns specifying populations which have more than one type of health insurance coverage, only one health insurance coverage, or no health insurance coverage (e.g. Population Under 19 Years with no health insurance coverage). This data is available at the tract, state, and county level. See the [ACS topics](https://www.census.gov/acs/www/about/why-we-ask-each-question/index.php) or [data pages](https://www.census.gov/acs/www/data/data-tables-and-tools/) for more details.
+  * Source: https://www.census.gov/acs/www/data/data-tables-and-tools/
+  * Column Changes: Tract -> tract, State -> state, County -> county, FIPS -> fips
+  * Accession date: 2020-03-31
 
 [ACS_Living_Arrangement_Variables by Tract](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Living_Arrangement_Variables_Centroids_byTract.csv)<br />
 [ACS_Living_Arrangement_Variables by County](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Living_Arrangement_Variables_Centroids_byCounty.csv)<br />
