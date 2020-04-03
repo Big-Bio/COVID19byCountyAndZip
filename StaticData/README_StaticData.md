@@ -96,6 +96,30 @@
   * Column Changes:
   * Accession date:
 
+* [ACS_Marital_Status_Variables_-_Centroids_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Marital_Status_Variables_-_Centroids_byCounty.csv)
+* [ACS_Marital_Status_Variables_-_Centroids_byState.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Marital_Status_Variables_-_Centroids_byState.csv)
+* [ACS_Marital_Status_Variables_-_Centroids_byTract.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Marital_Status_Variables_-_Centroids_byTract.csv)
+  * Description: "This layer contains the most current release of data from the American Community Survey (ACS) about current maritial status. Counts broken down by sex. These are 5-year estimates shown by tract, county, and state centroids."
+  * Source: https://www.census.gov/acs/www/data/data-tables-and-tools/
+  * Column Changes: 'Tract' -> 'tract', 'State' -> 'state', 'County' -> 'county', 'Geographic Identifier - FIPS Code' -> 'fips'
+  * Accession Date: 2020-04-02
+
+* [ACS_Race_and_Hispanic_Origin_Variables_-_Centroids_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Race_and_Hispanic_Origin_Variables_-_Centroids_byCounty.csv)
+* [ACS_Race_and_Hispanic_Origin_Variables_-_Centroids_byState.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Race_and_Hispanic_Origin_Variables_-_Centroids_byState.csv)
+* [ACS_Race_and_Hispanic_Origin_Variables_-_Centroids_byTract.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Race_and_Hispanic_Origin_Variables_-_Centroids_byTract.csv)
+  * Description: "This layer shows population broken down by race and Hispanic origin. This is shown by tract, county, and state centroids. This service is updated annually to contain the most currently released American Community Survey (ACS) 5-year data, and contains estimates and margins of error. There are also additional calculated attributes related to this topic, which can be mapped or used within analysis."
+  * Source: https://www.census.gov/acs/www/data/data-tables-and-tools/
+  * Column Changes: 'Tract' -> 'tract', 'State' -> 'state', 'County' -> 'county', 'Geographic Identifier - FIPS Code' -> 'fips'
+  * Accession Date: 2020-04-02
+
+* [ACS_Geographical_Mobility_Variables_-_Centroids_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Geographical_Mobility_Variables_-_Centroids_byCounty.csv)
+* [ACS_Geographical_Mobility_Variables_-_Centroids_byState.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Geographical_Mobility_Variables_-_Centroids_byState.csv)
+* [ACS_Geographical_Mobility_Variables_-_Centroids_byTract.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/ACS_Geographical_Mobility_Variables_-_Centroids_byTract.csv)
+  * Description: "This layer shows residence one year ago for those 1 year and older. This is shown by tract, county, and state centroids. This service is updated annually to contain the most currently released American Community Survey (ACS) 5-year data, and contains estimates and margins of error. There are also additional calculated attributes related to this topic, which can be mapped or used within analysis."
+  * Source: https://www.census.gov/acs/www/data/data-tables-and-tools/
+  * Column Changes: 'Tract' -> 'tract', 'State' -> 'state', 'County' -> 'county', 'Geographic Identifier - FIPS Code' -> 'fips'
+  * Accession Date: 2020-04-02
+
 ## County, State and Country
 
 [CDC_County_Health_Rankings_2020_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/CDC_County_Health_Rankings_2020_byCountry.csv)<br />
