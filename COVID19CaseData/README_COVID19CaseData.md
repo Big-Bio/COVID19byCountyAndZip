@@ -1,6 +1,6 @@
 # COVID19CaseData
 
-The source of the NYTimes COVID-19 County Data is <link to NYTimes GitHub repo: [https://github.com/nytimes/covid-19-data](https://github.com/nytimes/covid-19-data).
+The source of the NYTimes COVID-19 County Data is: [https://github.com/nytimes/covid-19-data](https://github.com/nytimes/covid-19-data).
 
 Our reformatted data includes two matrices. The first, "[County_CaseCount_NYT.csv](https://github.com/Big-Bio/COVID19byZip/COVID19CaseData/County_CaseCount_NYT.csv)", is the count data where each row represents a county and is identified by the county fips code and each column represents a day. NA represents any day for which there are no reported cases.
 
