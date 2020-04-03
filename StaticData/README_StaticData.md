@@ -27,10 +27,10 @@
 [ACS_Disability_Status by Tract](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Disability_Status_Variables_Centroids_byTract.csv)<br />
 [ACS_Disability_Status by County](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Disability_Status_Variables_Centroids_byCounty.csv)<br />
 [ACS_Disability_Status by State](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Disability_Status_Variables_Centroids_byState.csv)<br />
-  * Description:
-  * Source:
-  * Column Changes:
-  * Accession date:
+  * Description: The ACS gathers data about a person's difficulty with tasks in order to create statistics about disability. The U.S. Census Bureau defines disability as a long-lasting physical, mental, or emotional condition. These datasets include columns that count disability status in population groups divided by gender and age range, as well as percents of people with disabilities in a given population (e.g. Percent of Female Population with a disability). This data is available at the tract, state, and county level. See the [ACS topics](https://www.census.gov/acs/www/about/why-we-ask-each-question/index.php) or [data pages](https://www.census.gov/acs/www/data/data-tables-and-tools/) for more details.
+  * Source: https://www.census.gov/acs/www/data/data-tables-and-tools/
+  * Column Changes: Tract -> tract, State -> state, County -> county, FIPS -> fips
+  * Accession date: 2020-03-31
 
 [ACS_Health_Insurance_Coverage_Variables by Tract](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Health_Insurance_Coverage_Variables_Centroids_byTract.csv)<br />
 [ACS_Health_Insurance_Coverage_Variables by County](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData/tract_county_state/tract_county_state/ACS_Health_Insurance_Coverage_Variables_Centroids_byCounty.csv)<br />
