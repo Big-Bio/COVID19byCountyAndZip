@@ -157,3 +157,9 @@
   * Column Changes:
     * STNAME->state, CTYNAME->county, added fips column, added POPDENSITY201x for 2010-2019 in people / sq meter.
   * Accession date: 2020-04-06
+
+* [pm25_byCounty.csv](county/pm25_byCounty.csv)<br />
+  * Description: County-level PM2.5 exposure data for years 2000-2016, averaged across grid cells in each county. Data is created via the PM2.5 predictions from The Atmospheric Composition Analysis Group at Dalhouse University.
+  * Source: https://github.com/wxwx1993/PM_COVID
+  * Column Changes: NONE
+  * Accession date: 2020-04-07
