@@ -143,10 +143,16 @@
 
 ## County
 
-[CDC_Social_Vulnerability_2018_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/blob/master/StaticData/county_state/CDC_Social_Vulnerability_2018_byCounty.csv)<br />
+* [CDC_Social_Vulnerability_2018_byCounty.csv](https://github.com/Big-Bio/COVID19byZip/blob/master/StaticData/county_state/CDC_Social_Vulnerability_2018_byCounty.csv)<br />
   *  Description: Social vulnerability refers to the resilience of communities when confronted by external stresses on human health, stresses such as natural or human-caused disasters, or disease outbreaks. CDC's Social Vulnerability Index uses 15 U.S. census variables at tract level to help local officials identify communities that may need support in preparing for hazards; or recovering from disaster. The dataset includes several columns besides the index, such as population by age, poverty, unemployment,income, housing statistics, and more. See [the full documentation](https://svi.cdc.gov/Documents/Data/2018_SVI_Data/SVI2018Documentation.pdf) for details.
   * Source: https://svi.cdc.gov/
   * Column Changes:
     * STATE -> state, COUNTY -> county, FIPS -> fips
   * Accession date: 2020-04-01
 
+* [USCS_PopulationDensity_PopulationTotal_and_PopulationChange_2010_to_2019_byCounty.csv](county/USCS_PopulationDensity_PopulationTotal_and_PopulationChange_2010_to_2019_byCounty.csv)<br />
+  *  Description: Annual Resident Population Estimates, Estimated Components of Resident Population Change, and Rates of the Components of Resident Population Change for States and Counties: April 1, 2010 to July 1, 2019. Population densities for each year computed by dividing by square meter areas of each county (area measurements from 2010 which likely haven't changed).
+  * Source: https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html#par_textimage_70769902
+  * Column Changes:
+    * STNAME->state, CTYNAME->county, added fips column, added POPDENSITY201x for 2010-2019 in people / sq meter.
+  * Accession date: 2020-04-06
