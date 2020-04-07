@@ -1,5 +1,14 @@
 # List of files available according to levels
 
+
+
+Note: Covariates.Formatted_CountyOnly.csv : This file contains a merged subset of the data available here. All of the columns are data available at the tract, county and state level, except the Air Quality Index (AQI) related data and teh 2019 population density estimates (the 2010 are available at all levels. 
+
+
+
+
+
+
 * [Tract, County and State](#tract-county-and-state)
 * [County, State and Country](#county-state-and-country)
 * [County and State](#county-and-state)
@@ -143,9 +152,23 @@
 
 ## County
 
-[CDC_Social_Vulnerability_2018_byCounty.csv](county/CDC_Social_Vulnerability_2018_byCounty.csv)<br />
+* [CDC_Social_Vulnerability_2018_byCounty.csv](county/CDC_Social_Vulnerability_2018_byCounty.csv)<br />
+
   *  Description: Social vulnerability refers to the resilience of communities when confronted by external stresses on human health, stresses such as natural or human-caused disasters, or disease outbreaks. CDC's Social Vulnerability Index uses 15 U.S. census variables at tract level to help local officials identify communities that may need support in preparing for hazards; or recovering from disaster. The dataset includes several columns besides the index, such as population by age, poverty, unemployment,income, housing statistics, and more. See [the full documentation](https://svi.cdc.gov/Documents/Data/2018_SVI_Data/SVI2018Documentation.pdf) for details.
   * Source: https://svi.cdc.gov/
   * Column Changes:
     * STATE -> state, COUNTY -> county, FIPS -> fips
   * Accession date: 2020-04-01
+
+* [USCS_PopulationDensity_PopulationTotal_and_PopulationChange_2010_to_2019_byCounty.csv](county/USCS_PopulationDensity_PopulationTotal_and_PopulationChange_2010_to_2019_byCounty.csv)<br />
+  *  Description: Annual Resident Population Estimates, Estimated Components of Resident Population Change, and Rates of the Components of Resident Population Change for States and Counties: April 1, 2010 to July 1, 2019. Population densities for each year computed by dividing by square meter areas of each county (area measurements from 2010 which likely haven't changed).
+  * Source: https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html#par_textimage_70769902
+  * Column Changes:
+    * STNAME->state, CTYNAME->county, added fips column, added POPDENSITY201x for 2010-2019 in people / sq meter.
+  * Accession date: 2020-04-06
+
+* [pm25_byCounty.csv](county/pm25_byCounty.csv)<br />
+  * Description: County-level PM2.5 exposure data for years 2000-2016, averaged across grid cells in each county. Data is created via the PM2.5 predictions from The Atmospheric Composition Analysis Group at Dalhouse University.
+  * Source: https://github.com/wxwx1993/PM_COVID
+  * Column Changes: NONE
+  * Accession date: 2020-04-07
