@@ -1,5 +1,15 @@
 # List of files available according to levels
 
+
+
+Covariates.Formatted_CountyOnly.csv
+	This file contains a merged subset of the data available here. All of the columns are data available at the tract, county and state level, except the Air Quality Index (AQI) related data and teh 2019 population density estimates (the 2010 are available at all levels. 
+
+
+
+
+
+
 * [Tract, County and State](#tract-county-and-state)
 * [County, State and Country](#county-state-and-country)
 * [County and State](#county-and-state)
