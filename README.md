@@ -7,7 +7,7 @@ We are examining fine scale resolution of coronavirus growth rates, at the level
 
 * [External Resources](#external-resources)
 * [Unacast Public Data](./UnacastData/README_Unacast.md)
-* [nytimes' COVID19 Case Data](./COVID19CaseData/README_COVID19CaseData.md)
+* [COVID19 Case Data](./COVID19CaseData/README_COVID19CaseData.md)
 * [Static Data](#static-data)
 * [Data Formatting Guidelines](#data-formatting-guidelines)
 * [Analysis Project](./AnalysisProject/README_AnalysisProjects.md)
