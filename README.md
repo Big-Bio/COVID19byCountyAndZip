@@ -5,12 +5,15 @@ We are examining fine scale resolution of coronavirus growth rates, at the level
 
 **Table of contents**
 
-* [Relevant Data](#relevant-data)
+* [External Resources](#external-resources)
+* [Unacast Public Data](./UnacastData/README_Unacast.md)
+* [COVID19 Case Data](./COVID19CaseData/README_COVID19CaseData.md)
 * [Static Data](#static-data)
 * [Data Formatting Guidelines](#data-formatting-guidelines)
+* [Analysis Project](./AnalysisProject/README_AnalysisProjects.md)
 
 
-# Relevant Data
+# External Resources
 
 * [CDC’s Social Vulnerability Index (SVI)](https://nation.maps.arcgis.com/home/item.html?id=425652f366d34c8ca33e6b014a304054): It includes all kinds of columns on the tract/county level including a social vulnerability score (calculated from 15 US Census metrics), data on population, housing stats, unemployment, poverty, per capita income, etc.
 
@@ -21,7 +24,7 @@ We are examining fine scale resolution of coronavirus growth rates, at the level
 
 # Static Data
 
-In this [folder](https://github.com/Big-Bio/COVID19byZip/tree/master/StaticData) we are hoping to make machine readable flat files of static covariates that can be used to understand disease spread and severity rates. We want all covariates to be at the zip and county code level of granularity.  We want any data on covariates that could indicate [risk](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-at-higher-risk.html) and any covariates that we think might be correlated with these or with other measures of social distancing.
+In this [folder](./StaticData) we are hoping to make machine readable [flat files](./StaticData/README_StaticData.md) of static covariates that can be used to understand disease spread and severity rates. We want all covariates to be at the zip and county code level of granularity.  We want any data on covariates that could indicate [risk](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-at-higher-risk.html) and any covariates that we think might be correlated with these or with other measures of social distancing.
 
 # Data Formatting Guidelines
 
